@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\game.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\World.cpp" />
+    <ClCompile Include="..\..\src\extra\box.cpp">
+      <Filter>Coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\box_bld.cpp">
+      <Filter>Coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet.cpp">
+      <Filter>Coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet_bld.cpp">
+      <Filter>Coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\math3d.cpp">
+      <Filter>Coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\tritri.c">
+      <Filter>Coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\sysdep.cpp">
+      <Filter>Coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\mytritri.cpp">
+      <Filter>Coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\textparser.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Bullet.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shader.cpp">
+      <Filter>Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rendertotexture.cpp">
+      <Filter>Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\texture.cpp">
+      <Filter>Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mesh.cpp">
+      <Filter>Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\camera.cpp">
+      <Filter>Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\framework.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IA.cpp">
+      <Filter>IA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Managers\SoundManager.cpp">
+      <Filter>Managers\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TurretIA.cpp">
+      <Filter>IA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\game.h" />
+    <ClInclude Include="..\..\src\World.h" />
+    <ClInclude Include="..\..\src\extra\box.h">
+      <Filter>Coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\coldet.h">
+      <Filter>Coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\coldetimpl.h">
+      <Filter>Coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\math3d.h">
+      <Filter>Coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\sysdep.h">
+      <Filter>Coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\mytritri.h">
+      <Filter>Coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\textparser.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Bullet.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shader.h">
+      <Filter>Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rendertotexture.h">
+      <Filter>Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\texture.h">
+      <Filter>Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mesh.h">
+      <Filter>Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\camera.h">
+      <Filter>Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\includes.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\stb_easy_font.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\stb_image.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\IA.h">
+      <Filter>IA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Managers\bass.h">
+      <Filter>Managers\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Managers\SoundManager.h">
+      <Filter>Managers\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TurretIA.h">
+      <Filter>IA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Coldet">
+      <UniqueIdentifier>{dfcadf5d-7b66-49af-a278-7ed92d679577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{a1466f9d-f661-4d28-aa3b-421af4e20164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{5f5205ab-40db-4886-b797-1ce18c5ab0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IA">
+      <UniqueIdentifier>{26ef800a-4434-47e7-8d15-0a33288cbd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical">
+      <UniqueIdentifier>{7159f178-2e4b-4ccd-b466-47daa53f62b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{848add90-be42-4814-aff9-4a221bb64960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{8c02379c-2907-4818-8cf8-48961e263711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Sound">
+      <UniqueIdentifier>{dde24c22-0b5d-42d4-b38b-3ecfe4b5d2c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
