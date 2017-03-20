@@ -95,6 +95,6 @@ cualquier objeto de la escena y saber que hacer cuando haya una colision entre o
 > Este es el manager que se encarga de aprovisionar de balas a los aviones y torretas (no se ha llegado a implementar).
 Tiene una piscina de balas , las cuales las va gestionando y asignando cada una cuando las entidades se las pide.  
 
-[LINK A YOUTUBE CON EL JUEGO FUNCIONANDO!]: https://www.youtube.com/watch?v=IfypJbomH1s
+[LINK A YOUTUBE CON EL JUEGO FUNCIONANDO!]: (https://www.youtube.com/watch?v=IfypJbomH1s)
 
 
